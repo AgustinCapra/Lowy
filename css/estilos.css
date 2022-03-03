@@ -1,0 +1,113 @@
+
+.logo_principal {
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 1px 2px 4px black;
+    text-decoration: solid;
+}
+
+.item_navegacion {
+    font-family: 'Russo One', sans-serif;
+    font-size: 17px;
+    color: rgb(18, 121, 200);
+    text-shadow: 1px 1px 3px black;
+}
+
+.seccion_principal {
+    background-image: url(../images/banner-index.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.item_lista_portada {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.seccion_secundaria {
+    height: 500px;
+}
+
+.boton_rojo {
+    background-color: red;
+}
+
+.titulo_seccion_principal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18, 121, 200);
+}
+
+.lista_portada {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 64, 86);
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+    
+}
+
+.titulo_cuadro_contenido {
+    font-size: 18px;
+    color: rgb(18, 121, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.texto_cuadro_contenido {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(114, 114, 114);
+    height: 85px;
+    line-height: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    text-size-adjust: 100%;
+}
+
+
+/* Seccion Servicios */
+
+.seccion_principal_servicios {
+    background-image: url(../images/bg-servicios.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+
+
+/* Seccion Contacto */
+
+.titulo_contacto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18, 121, 200);
+}
+
+.dato_contacto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Seccion Nosotros */
+
+.parrafos_tuneado {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+/* Seccion Nosotros */
+
+.img_cards {
+    height: 250px;
+}
+
+.boton_cards{
+    background-color: rgb(100, 50, 2, 0.3);
+    color: white;
+    width: 100px;
+}
