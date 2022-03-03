@@ -76,9 +76,17 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 400px;
 }
 
+.seccion_secundaria_servicios {
+    height: 400px;
+}
+
+.iconos_servicios {
+    height: 80px;
+    width: 80px;
+}
 
 
 /* Seccion Contacto */
