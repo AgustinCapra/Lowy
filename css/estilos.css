@@ -17,16 +17,12 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 500px;
+    background-attachment: fixed;
 }
 
 .item_lista_portada {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-}
-
-.seccion_secundaria {
-    height: 500px;
 }
 
 .boton_rojo {
@@ -60,11 +56,6 @@
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(114, 114, 114);
-    height: 85px;
-    line-height: 18px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    padding: 0px 20px;
     text-size-adjust: 100%;
 }
 
@@ -76,11 +67,6 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 400px;
-}
-
-.seccion_secundaria_servicios {
-    height: 400px;
 }
 
 .iconos_servicios {
