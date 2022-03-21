@@ -1,0 +1,139 @@
+$colorbotones: ( 
+ promo: #d50000,
+ info: #bcaaa4,
+ calculador: #e0e0e0,
+ tellamamos: #1976d2
+); 
+
+@each $blue, $color in $colorbotones {
+ .btn--#{$blue} {
+ background-color: $color;
+ }
+}
+
+@mixin flex-center{
+    display:flex;
+    justify-content:center;
+    }
+
+.pie_pagina {
+     @include flex-center;
+    }
+
+/* Seccion Nosotros */
+
+.parrafos_tuneado {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.parrafos_estilo_claro {
+    @extend .parrafos_tuneado;
+    color: #757575;
+    font-size: 18px;
+}
+
+.parrafos_estilo_oscuro {
+    @extend .parrafos_tuneado;
+    color: #212121;
+    font-size: 30px;
+}
+
+
+/* Index */
+
+.logo_principal {
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 1px 2px 4px black;
+    text-decoration: solid;
+}
+
+.item_navegacion {
+    font-family: 'Russo One', sans-serif;
+    font-size: 17px;
+    color: rgb(18, 121, 200);
+    text-shadow: 1px 1px 3px black;
+}
+
+.seccion_principal {
+    background-image: url(../images/banner-index.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.item_lista_portada {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.titulo_seccion_principal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18, 121, 200);
+}
+
+.lista_portada {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 64, 86);
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+    
+}
+
+.titulo_cuadro_contenido {
+    font-size: 18px;
+    color: rgb(18, 121, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.texto_cuadro_contenido {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(114, 114, 114);
+    text-size-adjust: 100%;
+}
+
+
+/* Seccion Servicios */
+
+.seccion_principal_servicios {
+    background-image: url(../images/bg-servicios.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.iconos_servicios {
+    height: 80px;
+    width: 80px;
+}
+
+/* Seccion centros */
+
+.boton_cards {
+    color: white;
+    width: 100px;
+}
+
+
+/* Seccion Contacto */
+
+.titulo_contacto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18, 121, 200);
+}
+
+.dato_contacto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* Seccion Nosotros */
+
+.img_cards {
+    height: 250px;
+}

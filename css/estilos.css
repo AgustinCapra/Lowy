@@ -1,105 +1,104 @@
+.btn--promo {
+  background-color: #d50000; }
+
+.btn--info {
+  background-color: #bcaaa4; }
+
+.btn--calculador {
+  background-color: #e0e0e0; }
+
+.btn--tellamamos {
+  background-color: #1976d2; }
+
+.pie_pagina {
+  display: flex;
+  justify-content: center; }
+
+/* Seccion Nosotros */
+.parrafos_tuneado, .parrafos_estilo_claro, .parrafos_estilo_oscuro {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify; }
+
+.parrafos_estilo_claro {
+  color: #757575;
+  font-size: 18px; }
+
+.parrafos_estilo_oscuro {
+  color: #212121;
+  font-size: 30px; }
+
+/* Index */
 .logo_principal {
-    font-family: 'Russo One', sans-serif;
-    text-shadow: 1px 2px 4px black;
-    text-decoration: solid;
-}
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 1px 2px 4px black;
+  text-decoration: solid; }
 
 .item_navegacion {
-    font-family: 'Russo One', sans-serif;
-    font-size: 17px;
-    color: rgb(18, 121, 200);
-    text-shadow: 1px 1px 3px black;
-}
+  font-family: 'Russo One', sans-serif;
+  font-size: 17px;
+  color: #1279c8;
+  text-shadow: 1px 1px 3px black; }
 
 .seccion_principal {
-    background-image: url(../images/banner-index.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
+  background-image: url(../images/banner-index.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
 
 .item_lista_portada {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-
-.boton_rojo {
-    background-color: red;
-}
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px; }
 
 .titulo_seccion_principal {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(18, 121, 200);
-}
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1279c8; }
 
 .lista_portada {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(26, 64, 86);
-    font-size: 17px;
-    text-align: left;
-    line-height: 30px;
-    
-}
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a4056;
+  font-size: 17px;
+  text-align: left;
+  line-height: 30px; }
 
 .titulo_cuadro_contenido {
-    font-size: 18px;
-    color: rgb(18, 121, 200);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
+  font-size: 18px;
+  color: #1279c8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 15px; }
 
 .texto_cuadro_contenido {
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(114, 114, 114);
-    text-size-adjust: 100%;
-}
-
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #727272;
+  text-size-adjust: 100%; }
 
 /* Seccion Servicios */
-
 .seccion_principal_servicios {
-    background-image: url(../images/bg-servicios.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
+  background-image: url(../images/bg-servicios.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
 
 .iconos_servicios {
-    height: 80px;
-    width: 80px;
-}
+  height: 80px;
+  width: 80px; }
 
+/* Seccion centros */
+.boton_cards {
+  color: white;
+  width: 100px; }
 
 /* Seccion Contacto */
-
 .titulo_contacto {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(18, 121, 200);
-}
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1279c8; }
 
 .dato_contacto {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; }
 
 /* Seccion Nosotros */
-
-.parrafos_tuneado {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-}
-
-/* Seccion Nosotros */
-
 .img_cards {
-    height: 250px;
-}
-
-.boton_cards{
-    background-color: rgb(100, 50, 2, 0.3);
-    color: white;
-    width: 100px;
-}
+  height: 250px; }
