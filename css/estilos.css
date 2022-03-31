@@ -39,6 +39,11 @@
   color: #1279c8;
   text-shadow: 1px 1px 3px black; }
 
+#link_color {
+  color: #1279c8; }
+  #link_color:hover {
+    color: #0e5891; }
+
 .seccion_principal {
   background-image: url(../images/banner-index.png);
   background-size: cover;
@@ -80,6 +85,9 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
+
+.seccion_secundaria_servicios {
+  height: 500px; }
 
 .iconos_servicios {
   height: 80px;

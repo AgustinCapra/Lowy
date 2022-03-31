@@ -55,6 +55,13 @@ $colorbotones: (
     text-shadow: 1px 1px 3px black;
 }
 
+#link_color {
+    color: rgb(18, 121, 200);
+    &:hover {
+        color:rgb(14, 88, 145);
+    }
+}
+
 .seccion_principal {
     background-image: url(../images/banner-index.png);
     background-size: cover;
@@ -78,7 +85,7 @@ $colorbotones: (
     font-size: 17px;
     text-align: left;
     line-height: 30px;
-    
+
 }
 
 .titulo_cuadro_contenido {
@@ -105,6 +112,10 @@ $colorbotones: (
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.seccion_secundaria_servicios {
+    height: 500px;
 }
 
 .iconos_servicios {

@@ -18,32 +18,41 @@
     </head>
     <body>
         <header>
-            <div class="container-fluid p-2">
+            <div class="container-fluid bg-dark py-4 sticky-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-4 col-sm-4 d-flex align-self-center justify-content-start">
                             <a href="../index.html"><h1 class="logo_principal animate__animated animate__bounceIn">Lowy Seguros</h1></a>
                         </div>                    
-
-                        <div class="col-md-6">
-                            <ul class="nav justify-content-end">
-                                <li class="nav-item item_navegacion">
-                                    <a class="nav-link active" href="../index.html">Home</a>
-                                    </li>
-                                <li class="nav-item item_navegacion">
-                                    <a class="nav-link active" href="../secciones/servicios.html">Servicios</a>
-                                </li>
-                                <li class="nav-item item_navegacion">
-                                    <a class="nav-link active" href="../secciones/centros.html">Centros</a>
-                                </li>
-                                <li class="nav-item item_navegacion">
-                                    <a class="nav-link active" href="../secciones/nosotros.html">Nosotros</a>
-                                </li>
-                                <li class="nav-item item_navegacion">
-                                    <a class="nav-link active" href="../secciones/contacto.html">Contacto</a>
-                                </li>
-                            </ul>
-                        </div>                        
+      
+                        <div class="col-md-8 col-sm-8 d-flex align-self-center justify-content-end">
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <div class="container px-4 400ms bg-dark">
+                                    <a class="navbar-brand" href="index.html"></a>
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                                        <ul class="navbar-nav ms-auto justify-content-end text-truncate">
+                                            <li class="nav-item item_navegacion">
+                                                <a class="nav-link active" href="../index.html" id="link_color">Home</a>
+                                            </li>
+                                            <li class="nav-item item_navegacion">
+                                                <a class="nav-link active" href="servicios.html" id="link_color">Servicios</a>
+                                            </li>
+                                            <li class="nav-item item_navegacion">
+                                                <a class="nav-link active" href="centros.html" id="link_color">Centros</a>
+                                            </li>
+                                            <li class="nav-item item_navegacion">
+                                                <a class="nav-link active" href="nosotros.html" id="link_color">Nosotros</a>
+                                            </li>
+                                            <li class="nav-item item_navegacion">
+                                                <a class="nav-link active" href="contacto.html" id="link_color">Contacto</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -97,10 +106,10 @@
 
 
         <footer>
-            <div class="container-fluid mt-auto p-3">
+            <div class="container-fluid bg-dark py-3 d-flex align-self-center justify-content-center">
                 <div class="row">
-                    <div class="col-12 pie_pagina">
-                        <h6>Lowy Copyright 2022</h6>
+                    <div class="col-12 text-center pt-1">
+                        <h5 class="item_navegacion">Lowy Copyright 2022</h5>
                     </div>
                 </div>
             </div>
